@@ -211,7 +211,7 @@ function App() {
           </s.Container>
           <s.SpacerLarge />
           <s.Container
-            flex={.75}
+            flex={2}
             jc={"center"}
             ai={"center"}
             style={{
@@ -230,7 +230,7 @@ function App() {
                 color: "var(--accent-text)",
               }}
             >
-              TEST
+              TEST ///  
               {data.totalSupply} / {CONFIG.MAX_SUPPLY}
             </s.TextTitle>
             <s.TextDescription
