@@ -230,7 +230,8 @@ function App() {
                 color: "var(--accent-text)",
               }}
             >
-              
+              TEST
+              {data.totalSupply} / {CONFIG.MAX_SUPPLY}
             </s.TextTitle>
             <s.TextDescription
               style={{
